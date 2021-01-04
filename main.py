@@ -73,7 +73,7 @@ class ScrapePinterestSearch:
         source_code = self.__load_full_page()
         urls = self.__get_pins_urls(source_code)
         # pins = [self.__get_pin_details(url) for url in urls]
-        print(self.__get_pin_details(list(urls)[0]))
+        # print(self.__get_pin_details(list(urls)[0]))
 
 
 if __name__ == '__main__':
